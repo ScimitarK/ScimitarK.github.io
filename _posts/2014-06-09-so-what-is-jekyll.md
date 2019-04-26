@@ -2,7 +2,7 @@
 layout:     post
 title:      盖世英雄
 date:       2019-04-26 12:12:12
-summary:    计划结束的第N个年头，在福建龙岩雨村，那首歌又响了起来。故事讲述的时间节点，就从这里开始。
+summary:    计划结束的第N个年头，在福建龙岩雨村，那首歌又响了起来。
 categories: jekyll pixyll
 ---
 
