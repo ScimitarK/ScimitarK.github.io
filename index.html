@@ -19,7 +19,10 @@ no_duoshuo: true
 
   {% include pagination.html %}
   
+  {% include tags.html %} 
+  
   {% if site.intensedebate_comments %}
-    {% include intensedebate-comments.html %}
+    {% include disqus.html %}
   {% endif %} 
+  
 </div>
