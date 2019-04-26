@@ -2,9 +2,7 @@
 layout:     post
 title:      盖世英雄
 date:       0000-00-00 12:12:12
-summary:    云山雾罩里，隐藏着无数故人的眼神。
-
-睡吧。他听到张起灵说。
+summary:    云山雾罩里，隐藏着无数故人的眼神。睡吧。他听到张起灵说。
 categories: jekyll pixyll
 ---
 
