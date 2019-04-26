@@ -18,4 +18,8 @@ no_duoshuo: true
   </div>
 
   {% include pagination.html %}
+  
+  {% if site.intensedebate_comments %}
+    {% include intensedebate-comments.html %}
+  {% endif %} 
 </div>
