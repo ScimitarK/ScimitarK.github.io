@@ -7,6 +7,21 @@ layout: default
 {% assign minutes = 1 %}
 {% endif %}
 
+<article class="post container">
+	
+  <!-- 定义日期和标签容器 -->
+  <div class="post-meta">
+    <span class="post-meta-span date">{{ page.date | date:"%Y %B %d" }}</span>
+    {% if page.tags.size > 0 %}
+    <span class="post-meta-span tag">{{ page.tags | join: ', ' }}</span>
+    {% endif %}
+  </div>
+	  
+  <!-- 站内搜索引擎 -->
+  <span class="post-meta-span Search">
+    <a href="https://ds19991999.github.io/search-engine" target="_blank">Search</a>
+  </span>
+
 <div class="post-header mb2">
   {% if page.hide_title %}
 	<!-- title is hide -->
@@ -20,8 +35,10 @@ layout: default
   <span class="post-meta small">{{ minutes }} minute read</span>
 </div>
 
-<article class="post-content">
   {{ content }}
+     {% if site.intensedebate_comments %}
+       {% include intensedebate-comments.html %}
+     {% endif %}
 </article>
 
 {% if site.show_post_footers %}
@@ -40,6 +57,3 @@ layout: default
   {% endfor %}
 {% endif %}
 
- {% if site.intensedebate_comments %}
-   {% include intensedebate-comments.html %}
- {% endif %}
