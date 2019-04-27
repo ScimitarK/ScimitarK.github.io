@@ -39,3 +39,16 @@ sass:
   
 #commit
 intensedebate_identifier: 1ce8d80a5f6d373a46f4ceaf3dff8859
+
+#tag
+links1:
+  - name:       所有
+    url:        /
+    type:       recent
+    external:   false
+  - name:       瓶邪
+    url:        /blog/pingxie
+    type:       pingxie
+    external:   false
+ blog_1:    recent
+ blog_2:    pingxie
